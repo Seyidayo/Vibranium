@@ -1,10 +1,10 @@
 var config = {
-    apiKey: "XXXXXXXXXXXXXXXXXXXXXX",
-    authDomain: "XXXXXXXXXXXXXXXXXXXXXX",
-    databaseURL: "XXXXXXXXXXXXXXXXXXXXXX",
-    projectId: "XXXXXXXXXXXXXXXXXXXXXX",
-    storageBucket: "XXXXXXXXXXXXXXXXXXXXXX",
-    messagingSenderId: "XXXXXXXXXXXXXXXXXXXXXX"
+    apiKey: "AIzaSyDtbIrjdIuyRtFSr0Hyynxo2_lYMH-js8o",
+    authDomain: "dsc-covenant-university.firebaseapp.com",
+    databaseURL: "https://dsc-covenant-university.firebaseio.com",
+    projectId: "dsc-covenant-university",
+    storageBucket: "dsc-covenant-university.appspot.com",
+    messagingSenderId: "939153188275"
 };
 firebase.initializeApp(config);
 
