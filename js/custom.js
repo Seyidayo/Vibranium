@@ -85,7 +85,8 @@ $(document).ready(function(){
       nav: false,
       dots: true,
       lazyLoad: true,
-      dotsContainer: '.dots'
+      dotsContainer: '.dots',
+      autoplay: true
     })
     $('.owl-dot').on('click', function() {
       $(this).addClass('active').siblings().removeClass('active');

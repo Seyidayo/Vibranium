@@ -61,6 +61,7 @@ p {
   font-weight: normal;
   line-height: 29px;
   text-align: left;
+  font-size: 22px;
 }
 @media only screen and (max-width: 600px){
   .lead{
@@ -247,29 +248,36 @@ p {
 }
 
 .btn-primary {
-  background: #3BC1FD;
-  color: #1B2733;
+  background: #6F42C1;
+  /* background: #3BC1FD; */
+  color: #FFFFFF;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:visited {
   -webkit-transform: translate(1px, -1px);
           transform: translate(1px, -1px);
-  background: #3BC1FD;
-  color: #1B2733;
-  -webkit-box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
-          box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
+  /* background: #3BC1FD; */
+  background-color: #6F42C1;
+  color: #FFFFFF;
+  -webkit-box-shadow: -5px 5px 0 rgba(47, 231, 177, 0.8);
+          box-shadow: -5px 5px 0 rgba(0, 250, 175, 0.8);
+  /* -webkit-box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8);
+          box-shadow: -5px 5px 0 rgba(47, 91, 231, 0.8); */
 }
 
 .btn-secondary {
-  background: #2F5BE7;
+  background: #6F42C1;
   color: #fff;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:visited {
-  background-color: #153bb5;
+  background-color: #6F42C1;
+  /* background-color:  #153bb5 */
   color: #8af2d3;
-  -webkit-box-shadow: -5px 5px 0 rgba(47, 231, 177, 0.8);
-          box-shadow: -5px 5px 0 rgba(47, 231, 177, 0.8);
+  -webkit-transform: translate(1px, -1px);
+          transform: translate(1px, -1px);
+  /* -webkit-box-shadow: -5px 5px 0 rgba(47, 231, 177, 0.8);
+          box-shadow: -5px 5px 0 rgba(47, 231, 177, 0.8); */
 }
 
 .btn-link {
@@ -909,7 +917,8 @@ p {
 .workshops-type-switch .nav-link.active {
   background: transparent;
   color: #1B2733;
-  border-bottom-color: #3BC1FD;
+  /* border-bottom-color: #3BC1FD; */
+  border-bottom-color: #6F42C1
 }
 
 .workshops-single {
@@ -917,11 +926,12 @@ p {
   box-shadow: 0 0 20px rgba(27, 39, 51, 0.2);
   border-radius: 2%;
   padding: 30px;
+  min-height: 350px;
 }
 
 .workshops-single:hover {
-  -webkit-box-shadow: 0 0 40px rgba(0, 110, 255, 0.4);
-          box-shadow: 0 0 40px rgba(0, 110, 255, 0.4);
+  /* -webkit-box-shadow: 0 0 40px rgba(0, 110, 255, 0.4);
+          box-shadow: 0 0 40px rgba(0, 110, 255, 0.4); */
 }
 
 .workshops-header {
@@ -935,6 +945,12 @@ p {
   font-size: 22px;
   color: #1B2733;
 }
+
+/* .workshops-picture {
+    width: 100%;
+    height: 50px;
+    background: col
+} */
 
 .workshops-price {
   margin-bottom: 20px;
@@ -1018,7 +1034,7 @@ hr{
 .team-slider__indicators .owl-dot {
   border-radius: 0 !important;
   width: 2px;
-  height: 100px;
+  height: 40px;
   background: rgba(255, 255, 255, 0.1);
   margin-left: auto;
   margin-right: auto;
@@ -1809,4 +1825,13 @@ color: black;
     opacity: 1;
     filter: "alpha(opacity=100)";
     -ms-filter: "alpha(opacity=100)"
+}
+
+.twitter-handle {
+    color: #FFFFFF;
+}
+
+.twitter-handle:hover {
+    color: #FFFFFF;
+    text-decoration: none;
 }
