@@ -61,7 +61,6 @@ p {
   font-weight: normal;
   line-height: 29px;
   text-align: left;
-  font-size: 22px;
 }
 @media only screen and (max-width: 600px){
   .lead{
@@ -635,7 +634,7 @@ p {
   height: 40px;
   border-radius: 50%;
   display: inline-block;
-  background: #2F5BE7;
+  background: #6F42C1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   position: absolute;
